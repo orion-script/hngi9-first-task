@@ -6,7 +6,6 @@ const NavBar = () => {
   return (
     // <h2 className="slack" id="slack">Olaniyi John</h2>
     <div className="flex  flex-col w-full h-40">
-    // <h2 className="slack">Olaniyi John</h2>
       <div className="w-20 h-20 rounded m-auto my-10">
         <FaShare
           className="md:absolute md:ml-52 md:cursor-pointer md:mt-5 hidden md:block border
