@@ -8,6 +8,7 @@ const Main = () => {
         target="_blank"
         rel="noreferrer"
         className=" bg-gray-400 w-10/12 m-auto rounded my-5 py-5 items-center font-bold text-xl"
+        id="twitter_link"
       >
         Twitter Link
       </a>
@@ -16,6 +17,7 @@ const Main = () => {
         target="_blank"
         rel="noreferrer"
         className="bg-gray-400 w-10/12 m-auto rounded my-5 py-5 items-center font-bold text-xl"
+        id="btn__zuri"
       >
         Zuri Team
       </a>
@@ -24,6 +26,7 @@ const Main = () => {
         target="_blank"
         rel="noreferrer"
         className="bg-gray-400 w-10/12 m-auto rounded my-5 py-5 items-center font-bold text-xl"
+        id="books"
       >
         Zuri Books
       </a>
@@ -32,6 +35,7 @@ const Main = () => {
         target="_blank"
         rel="noreferrer"
         className="bg-gray-400 w-10/12 m-auto rounded my-5 py-5 items-center font-bold text-xl"
+        id="book_python"
       >
         Python Books
       </a>
@@ -40,6 +44,7 @@ const Main = () => {
         target="_blank"
         rel="noreferrer"
         className="bg-gray-400 w-10/12 m-auto rounded my-5 py-5 items-center font-bold text-xl"
+        id="pitch"
       >
         Background Check for Coders
       </a>
@@ -48,6 +53,7 @@ const Main = () => {
         target="_blank"
         rel="noreferrer"
         className="bg-gray-400 w-10/12 m-auto rounded my-5 py-5 items-center font-bold text-xl"
+        id="book-design"
       >
         Design Books
       </a>

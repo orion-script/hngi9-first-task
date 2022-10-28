@@ -4,6 +4,7 @@ import { FaEllipsisH } from "react-icons/fa";
 
 const NavBar = () => {
   return (
+    // <h2 className="slack" id="slack">Olaniyi John</h2>
     <div className="flex  flex-col w-full h-40">
       <div className="w-20 h-20 rounded m-auto my-10">
         <FaShare
@@ -20,10 +21,13 @@ const NavBar = () => {
           src={ProfilePic}
           alt="pprofile-pic"
           className="rounded-full cursor-pointer"
+          id="profile_img"
         />
       </div>
       <div className="m-auto text-2xl font-bold ">
-        <h1 className="cursor-pointer">Hades_Codes</h1>
+        <h1 className="cursor-pointer" id="twitter">
+          Hades_Codes
+        </h1>
       </div>
     </div>
   );
