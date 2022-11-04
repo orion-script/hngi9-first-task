@@ -1,17 +1,17 @@
 import "./App.css";
-import NavBar from "./components/NavBar";
-import Main from "./components/Main";
-import Section from "./components/Section";
-import Footer from "./components/Footer.jsx";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/routes/Home";
+import Footer from "./components/routes/Footer.jsx";
+import Contact from "./components/routes/Contact";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Main />
-      <Section />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Footer />}>
+        <Route index element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+      </Route>
+    </Routes>
   );
 }
 

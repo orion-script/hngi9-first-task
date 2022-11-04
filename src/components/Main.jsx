@@ -4,6 +4,13 @@ const Main = () => {
   return (
     <div className="flex flex-col mt-10 text-center text-base">
       <a
+        href="/contact"
+        id="contact"
+        className=" bg-gray-400 w-10/12 m-auto rounded my-5 py-5 items-center font-bold text-xl"
+      >
+        Contact
+      </a>
+      <a
         href="https://twitter.com/Hades_Codes"
         target="_blank"
         rel="noreferrer"
